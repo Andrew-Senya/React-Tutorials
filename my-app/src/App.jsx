@@ -7,6 +7,11 @@ import UserGreetings from "./components/UserGreetings"
 import Button from "./components/Button";
 import MyComponent from "./components/MyComponent";
 import MySubComponent from "./components/MySubComponent";
+import ColorPicker from "./components/ColorPicker";
+import SetCount from "./components/SetCount";
+import MyCarDetails from "./components/MyCarDetails";
+import FoodComponents from "./components/FoodComponents";
+import MyCarList from "./components/MyCarList";
 
 function App() {
 
@@ -35,7 +40,12 @@ function App() {
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
       <Button />
       <MyComponent />
-      <MySubComponent/>
+      <MySubComponent />
+      <ColorPicker />
+      <SetCount />
+      <MyCarDetails />
+      <FoodComponents />
+      <MyCarList/>
     </>
   );
 }
