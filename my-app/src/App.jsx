@@ -12,6 +12,7 @@ import SetCount from "./components/SetCount";
 import MyCarDetails from "./components/MyCarDetails";
 import FoodComponents from "./components/FoodComponents";
 import MyCarList from "./components/MyCarList";
+import TodoList from "./components/TodoList";
 
 function App() {
 
@@ -45,7 +46,8 @@ function App() {
       <SetCount />
       <MyCarDetails />
       <FoodComponents />
-      <MyCarList/>
+      <MyCarList />
+      <TodoList/>
     </>
   );
 }
