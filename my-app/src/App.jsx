@@ -13,6 +13,7 @@ import MyCarDetails from "./components/MyCarDetails";
 import FoodComponents from "./components/FoodComponents";
 import MyCarList from "./components/MyCarList";
 import TodoList from "./components/TodoList";
+import DigitalClock from "./components/DigitalClock";
 
 function App() {
 
@@ -47,7 +48,8 @@ function App() {
       <MyCarDetails />
       <FoodComponents />
       <MyCarList />
-      <TodoList/>
+      <TodoList />
+      <DigitalClock/>
     </>
   );
 }
